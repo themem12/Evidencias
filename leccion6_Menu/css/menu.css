@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	padding: 0 80px;
+
+}
+
+.menu-container{
+	list-style: none;
+	background-color: rgba(20,100,130,0.8);
+	padding: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+}
+
+.menu-opcion{
+	display: inline;
+    
+}
+.menu-opcion a{
+	color: white;
+	text-decoration: none;
+	padding: 20px 40px;
+    background-color: rgba(30,140,40,0.8);
+    font-family: sans-serif;
+    border-radius: 10px;
+    color: white;
+}
+
+.parrafo{
+	margin-top: 100px;
+}
+
+.menu-opcion a:hover{
+	background-color: rgba(30,140,40,1);
+
+}
